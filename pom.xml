@@ -35,12 +35,12 @@
     </dependencies>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>ip-172-31-20-143-snapshots</name>
-            <url>http://54.211.51.76/artifactory/libs-snapshot</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-19-41-snapshots</name>
+        <url>http://54.211.51.76:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
     <build>
         <finalName>sample-webapp</finalName>
